@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(48, 49, 54);
+    color: white;
+    padding: 1rem;
+    height: 4rem;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+
+
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.optionContent{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.around{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 2rem;
+    max-width: 25%;
+    max-height: 90%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.around:hover{
+    box-shadow:2cm;
+    background-color: rgb(231, 231, 231);
+}
+
+.around img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(48, 49, 54);
+    padding: 2rem;
+}
+
+footer a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.countBox{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    background-color: rgb(221, 221, 252);
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 5rem;
+    padding: .5rem;
+    align-items: center;
+}
